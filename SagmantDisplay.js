@@ -35,7 +35,7 @@ ViewDisplay(DisplayAdd(DisplayAdd(DisplayAdd(Display1,Display2),Display3),Displa
 
 /*디지털 시계 생성*/
 
-if(msg=="☆#시간#☆")
+if(msg=="#시간#")
 {
 num_3= Math.floor(new Date().getHours()/10);
 num_2= Math.floor(new Date().getHours()%10);
